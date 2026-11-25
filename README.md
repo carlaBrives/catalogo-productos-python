@@ -36,4 +36,4 @@ El programa muestra un menú para agregar, listar, buscar o eliminar productos. 
 
 ## Datos
 
-La base de datos SQLite se crea automáticamente en la carpeta de datos local del usuario (`%LOCALAPPDATA%\\talento_ba\\datos.db` en Windows). Los datos permanecen allí al cerrar el programa. Si otra persona ejecuta el programa en su computadora, tendrá su propia base de datos.
+La base de datos SQLite se crea automáticamente en la computadora donde se ejecuta el programa. Los productos quedan guardados al cerrar y volver a abrir la aplicación. Cada persona que lo ejecute tendrá sus propios datos en su computadora.
